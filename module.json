@@ -1,0 +1,13 @@
+{
+    "disableAutoUpdate": false,
+    "name": "guild-boss",
+    "author": "bobby",
+    "description": "Notify when the guild quest urgent boss appears.",
+    "options": {
+        "niceName": "guild boss",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "settings_migrator.js"
+    },
+    "servers": ["https://raw.githubusercontent.com/sb032835/guild-boss/master/"]
+}
