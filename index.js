@@ -29,7 +29,7 @@ let announce = 0;
 		let message = event.quest;
 				mod.send('S_CHAT', 2, {
 					authorName: '',
-					channel: 21,
+					channel: 7,
 					message: message
 				});
 
@@ -38,9 +38,9 @@ let announce = 0;
 
 const SOUND_ID = Number(mod.settings.sound);
 
-	function playSound(id) {
+	function playSound(SOUND_ID) {
 		mod.send('S_PLAY_SOUND', 1, {
-			SoundID: id
+			SoundID: SOUND_ID
 		})
 	}
 }
